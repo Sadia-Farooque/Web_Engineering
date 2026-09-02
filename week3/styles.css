@@ -1,0 +1,50 @@
+/* h1{
+    color: navy ;
+    font-size: 2rem;
+}
+
+.note{
+
+
+    color: teal ;
+    font-weight: bold;
+}
+#alert{
+    background: #fff3cd;
+    padding : 8px;
+}
+input[type="email"]{
+    border: 2px solid teal;
+    padding:8px;
+}
+a:hover {
+    color: crimson;
+    text-decoration: underline;
+}
+
+li:nth-child(odd) {
+  background: #e3f2fd;
+}
+li:nth-child(even) {
+  background: #fff3e0;
+} */
+
+
+ p { color: green; }
+p { color: crimson; }
+
+
+/* 2) Class selector: 0,1,0 */
+/* .intro {
+  color: blue;
+} */
+
+/* 3) Element + class: 0,1,1 */
+/* p.intro { */
+  /* color: purple;
+} */
+
+/* 4) ID + element: 1,0,1 */
+/* #main p {
+  color: navy;
+} */
