@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Flexbox gallery</title>
+  <style>
+    body { font-family: system-ui, sans-serif; padding: 1rem; }
+    .photo {
+      background: #ddd;
+      padding: 2rem 1rem;
+      text-align: center;
+      flex: 0 0 120px
+    }
+     .gallery{
+      display: flex;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+      justify-content: space-between ;
+    }
+  </style>
+</head>
+<body>
+  <h1>Flexbox gallery</h1>
+  <section class="gallery">
+    <div class="photo">1</div>
+    <div class="photo">2</div>
+    <div class="photo">3</div>
+    <div class="photo">4</div>
+    <div class="photo">5</div>
+    <div class="photo">6</div>
+  </section>
+</body>
+</html>
